@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="1000" android:drawable="@android:color/transparent" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_in01" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_in02" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_in03" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_in04" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_in05" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_in06" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_in07" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_in08" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_in09" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_in10" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_max" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_out01" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_out02" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_out03" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_out04" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_out05" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_out06" />
+    <item android:duration="100" android:drawable="@drawable/weit_blink_out07" />
+</animation-list>

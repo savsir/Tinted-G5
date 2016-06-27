@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/switchBullet" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_switch_bullet" android:layout_marginEnd="@dimen/switch_space_between_divider_and_bullet" />
+    <ImageView android:layout_gravity="center" android:id="@id/switchDivider" android:background="?android:dividerVertical" android:visibility="gone" android:layout_width="?android:dividerHeight" android:layout_height="@dimen/switch_divider_height" android:layout_marginEnd="@dimen/switch_space_between_divider_and_bullet" />
+    <Switch android:layout_gravity="center" android:id="@android:id/switchWidget" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

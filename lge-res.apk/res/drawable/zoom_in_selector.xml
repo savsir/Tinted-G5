@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:paddingMode="stack"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_enabled="false">
+                <bitmap android:src="@drawable/btn_zoom_in" android:alpha="@dimen/icon_disabled_alpha" />
+            </item>
+            <item android:drawable="@drawable/btn_zoom_in" />
+        </selector>
+    </item>
+    <item>
+        <ripple android:color="?android:colorControlHighlight">
+            <item android:id="@android:id/mask" android:drawable="@drawable/btn_zoom_in" />
+        </ripple>
+    </item>
+</layer-list>

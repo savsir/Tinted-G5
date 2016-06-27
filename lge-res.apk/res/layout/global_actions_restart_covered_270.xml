@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="109.0dip" android:layout_alignParentLeft="true">
+        <Button android:id="@id/global_restart_cancelButton_covered" android:background="@drawable/btn_alicecover_power_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="54.5dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:rotation="90.0" />
+        <Button android:id="@id/global_restart_okButton_covered" android:background="@drawable/btn_alicecover_power_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="54.5dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:rotation="90.0" />
+        <TextView android:textSize="50.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/global_title_restart_text" android:layout_width="270.0dip" android:layout_height="wrap_content" android:layout_marginRight="214.0dip" android:text="@string/global_action_power_restart" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:lineSpacingMultiplier="0.9" android:translationX="75.75dip" android:rotation="90.0" android:textAlignment="center" />
+    </RelativeLayout>
+</RelativeLayout>

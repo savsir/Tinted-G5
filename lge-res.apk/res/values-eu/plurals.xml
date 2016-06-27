@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d minuturako</item>
+        <item quantity="one">Minutu baterako</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d ordurako</item>
+        <item quantity="one">Ordu baterako</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">Wi-Fi sare irekiak edo seguruak erabilgarri</item>
+        <item quantity="one">Wi-Fi sare irekiak edo seguruak erabilgarri</item>
+    </plurals>
+</resources>

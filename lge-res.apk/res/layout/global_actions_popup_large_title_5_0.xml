@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ScrollView android:scrollbarSize="4.0dip" android:scrollbarThumbVertical="@drawable/scrollbar_system_action_handle_holo_dark" android:id="@id/global_scrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="12.0dip" android:requiresFadingEdge="vertical" android:paddingEnd="4.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@id/global_scrollLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="23.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/global_titleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="-3.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="10.25dip" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="20.699982dip" android:textColor="#ffffffff" android:id="@id/global_descText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="7.5dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="-1.75dip" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="end" android:id="@id/global_buttonLayout" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <LinearLayout android:id="@id/global_okButton" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="64.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <TextView android:textSize="20.699982dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/global_okButtonText" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="-4.5dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="-1.75dip" android:minWidth="48.0dip" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/global_cancelButton" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="64.0dip" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/global_okButton">
+                <TextView android:textSize="20.699982dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/global_cancelButtonText" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="-4.5dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="-1.75dip" android:minWidth="48.0dip" android:maxLines="1" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

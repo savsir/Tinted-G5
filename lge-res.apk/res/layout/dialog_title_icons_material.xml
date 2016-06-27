@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@android:id/title_container" android:paddingTop="@dimen/alert_dialog_padding_material" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_dialog_padding_material" android:paddingEnd="@dimen/alert_dialog_padding_material">
+        <ImageView android:id="@android:id/left_icon" android:layout_width="@dimen/dialog_list_icon_size_height" android:layout_height="@dimen/dialog_list_icon_size_height" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/dialog_list_icon_margin" />
+        <TextView android:textAppearance="@style/LGTextAppearance.Dialog.Title" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" />
+        <ImageView android:id="@android:id/right_icon" android:layout_width="@dimen/dialog_list_icon_size_height" android:layout_height="@dimen/dialog_list_icon_size_height" android:scaleType="fitCenter" android:layout_marginStart="@dimen/dialog_list_icon_margin" />
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:windowContentOverlay" android:layout_weight="1.0">
+        <FrameLayout android:id="@android:id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

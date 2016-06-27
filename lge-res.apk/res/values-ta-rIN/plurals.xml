@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d நிமிடங்களுக்கு</item>
+        <item quantity="one">ஒரு நிமிடத்திற்கு</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d மணிநேரத்திற்கு</item>
+        <item quantity="one">ஒரு மணிநேரத்திற்கு</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">"திறந்த அல்லது பாதுகாப்பான Wi-Fi  நெட்வொர்க்குகள் கிடைக்கின்றன"</item>
+        <item quantity="one">"திறந்த அல்லது பாதுகாப்பான Wi-Fi  நெட்வொர்க் கிடைக்கிறது"</item>
+    </plurals>
+</resources>

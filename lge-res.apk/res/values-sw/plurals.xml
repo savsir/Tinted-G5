@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Kwa dakika %d</item>
+        <item quantity="one">Kwa dakika moja</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Kwa saa %d</item>
+        <item quantity="one">Kwa saa moja</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">Mitandao ya Wi-Fi wazi au iliokingwa unapatikana</item>
+        <item quantity="one">Mtandao wa Wi-Fi wazi au iliokingwa unapatikana</item>
+    </plurals>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" coreApp="true" package="com.lge" platformBuildVersionCode="23" platformBuildVersionName="6.0.1">
+    <application android:label="LG System Resources">
+        <library android:name="com.lge.resources"/>
+    </application>
+    <permission-group android:description="@string/permgroupdesc_NFC" android:icon="@drawable/perm_group_network" android:label="@string/permgrouplab_NFC" android:name="android.permission-group.NFC" android:priority="270"/>
+    <permission android:description="@string/permdesc_nfcReceiveEvent" android:label="@string/permlab_nfcReceiveEvent" android:name="com.gsma.services.nfc.permission.TRANSACTION_EVENT" android:permissionGroup="android.permission-group.NFC" android:protectionLevel="normal"/>
+    <permission android:name="com.verizon.settings.permission.RECEIVE_UPDATED_SETTING" android:protectionLevel="preinstalled|signature"/>
+    <permission android:name="com.orange.permission.SIMCARD_AUTHENTICATION" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_preferredNetworkSettings" android:label="@string/permlab_preferredNetworkSettings" android:name="com.kddi.android.permission.PREFERRED_NETWORK_SETTINGS" android:permissionGroup="android.permission-group.PHONE" android:protectionLevel="dangerous"/>
+    <permission android:name="com.kddi.android.permission.MANAGE_CPA" android:protectionLevel="normal"/>
+    <permission android:name="com.lge.permission.SDENCRYPTION" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.TRUSTED_INSTALLER" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.DP_PRELOAD_INSTALLER" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.LGNFC" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.LGWIFI" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.WIFIDISPLAY" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.bluetooth.permission.BLUETOOTH_GROUP" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.WRITE_SYSTEM_PROPERTIES" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_IMS" android:label="@string/permlab_IMS" android:name="com.lge.permission.IMS" android:permissionGroup="android.permission-group.PHONE" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.MONITOR_SCREEN_STATUS" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.GO_SLEEP_FORCE" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.WAKE_UP_FORCE" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.MANAGE_MEMORY" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.LGPOWER_MANAGER_HELPER" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.KEYGUARD" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.KILLSWITCH" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.ACCESS_GRAPHICS_FB" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.ACCESS_QSEECOM" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.ACCESS_CC_MODE" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.WRITE_NV_ITEM" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.READ_NV_ITEM" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.LGHIDDEN" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.SHORT_ALARM" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_receiveSms" android:label="@string/permlab_receiveSms" android:name="com.lge.permission.SECURITY_SMS_RECEIVED" android:protectionLevel="normal"/>
+    <permission android:name="com.lge.permission.MANAGE_PERMISSIONS" android:protectionLevel="preinstalled|signature"/>
+    <permission android:label="Quick mode permission" android:name="com.lge.permission.QUICKMODE"/>
+    <permission android:label="MLT permission" android:name="com.lge.permission.MLT" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.RECEIVE_START_EARLY_SERVICE" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.RECEIVE_LGSYSTEMSERVER_READY" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/sp_lgis_desc_use_lgis_NORMAL" android:label="@string/sp_lgis_lab_use_lgis_NORMAL" android:name="com.lge.permission.ACCESS_INTEGRITY_SERVICE" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_quicktools" android:label="@string/permlab_quicktools" android:name="com.lge.permission.BIND_QUICK_TOOLS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_quickaccess" android:label="@string/permlab_quickaccess" android:name="com.lge.permission.BIND_QUICK_ACCESS" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_universalmusicplayer" android:label="@string/permlab_universalmusicplayer" android:name="com.lge.permission.BIND_UNIVERSAL_MUSIC_PLAYER" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_glanceview" android:label="@string/permlab_glanceview" android:name="com.lge.permission.BIND_GLANCE_VIEW" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_flashlight" android:label="@string/permlab_flashlight" android:name="com.lge.permission.BIND_FLASHLIGHT" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_use_signboard_flag" android:label="@string/permlab_use_signboard_flag" android:name="com.lge.permission.USE_SIGNBOARD_FLAG" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_bind_signboard" android:label="@string/permlab_bind_signboard" android:name="com.lge.permission.BIND_SIGNBOARD" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_bind_signboard_aod_update_wake_lock" android:label="@string/permlab_bind_signboard_aod_update_wake_lock" android:name="com.lge.permission.BIND_SIGNBOARD_AOD_UPDATE_WAKE_LOCK" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.UPDATE_CHANGED_NAVIGATION_BAR_COLOR" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.DIVXDRM" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.ALWAYS_EXACT_ALARM" android:protectionLevel="system|preinstalled|signature"/>
+    <permission android:name="com.lge.permission.ACCESS_MINIACTIVITY_TYPE" android:protectionLevel="system|signature"/>
+    <permission android:description="@string/permdesc_nfcReaderMode" android:label="@string/permlab_nfcReaderMode" android:name="com.korea.nfc.permission.READER_MODE" android:permissionGroup="android.permission-group.NFC" android:protectionLevel="normal"/>
+    <permission android:name="com.lge.permission.SOFTPHONE" android:protectionLevel="system|signature"/>
+    <permission android:name="com.lge.permission.USE_FIDO_AUTHENTICATE" android:protectionLevel="system|signature"/>
+</manifest>

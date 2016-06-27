@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="?android:listPreferredItemPaddingStart" android:insetRight="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:tint="@color/list_divider_color">
+        <solid android:color="@android:color/black" />
+        <size android:height="?android:dividerHeight" android:width="?android:dividerHeight" />
+    </shape>
+</inset>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Zuhause</item>
+        <item>Arbeit</item>
+        <item>Andere</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Arbeit</item>
+        <item>Andere</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Zuhause</item>
+        <item>Mobil</item>
+        <item>Arbeit</item>
+        <item>Fax (Arbeit)</item>
+        <item>Fax (Privat)</item>
+        <item>Pager</item>
+        <item>Andere</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Zuhause</item>
+        <item>Arbeit</item>
+        <item>Andere</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <array name="wfcOperatorErrorAlertMessages" />
+    <array name="wfcOperatorErrorNotificationMessages" />
+    <string-array name="fingerprint_acquired_vendor">
+        <item>"Platzieren Sie Ihren Finger
+jedes Mal unterschiedlich."</item>
+        <item>"Fingerabdruck wurde bereits hinzugefügt.
+Platzieren Sie einen anderen Finger."</item>
+    </string-array>
+    <array name="fingerprint_error_vendor" />
+    <string-array name="imAddressTypes">
+        <item>Zuhause</item>
+        <item>Arbeit</item>
+        <item>Andere</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+</resources>

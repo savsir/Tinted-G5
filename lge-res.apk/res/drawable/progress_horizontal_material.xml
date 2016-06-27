@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/progress_bar_height_material" />
+            <solid android:color="@color/progress_background_track" />
+        </shape>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/secondaryProgress">
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle">
+                <size android:height="@dimen/progress_bar_height_material" />
+                <solid android:color="@color/progress_secondary_track" />
+            </shape>
+        </scale>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <animated-vector android:drawable="@drawable/vector_drawable_animatable_progress">
+                <target android:name="animate_track_group" android:animation="@anim/progress_track_anim" />
+            </animated-vector>
+        </scale>
+    </item>
+</layer-list>

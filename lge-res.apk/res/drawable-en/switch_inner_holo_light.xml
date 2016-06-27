@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/switch_thumb_activated_disabled_holo_light_latin" />
+    <item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/switch_thumb_disabled_holo_light_latin" />
+    <item android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/switch_thumb_activated_pressed_holo_light_latin" />
+    <item android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/switch_thumb_pressed_holo_light_latin" />
+    <item android:state_focused="true" android:state_checked="true" android:drawable="@drawable/switch_thumb_activated_focused_holo_light_latin" />
+    <item android:state_focused="true" android:state_checked="false" android:drawable="@drawable/switch_thumb_focused_holo_light_latin" />
+    <item android:state_checked="true" android:drawable="@drawable/switch_thumb_activated_holo_light_latin" />
+    <item android:drawable="@drawable/switch_thumb_holo_light_latin" />
+</selector>

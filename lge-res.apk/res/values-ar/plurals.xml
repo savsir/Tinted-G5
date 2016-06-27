@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">‏‏لمدة %d دقائق</item>
+        <item quantity="one">‏لمدة دقيقة واحدة</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">‏‏لمدة %d ساعات</item>
+        <item quantity="one">‏لمدة ساعة واحدة</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">"‏تتوفر شبكات Wi-Fi مفتوحة أو مؤمنة "</item>
+        <item quantity="one">"‏تتوفر شبكات Wi-Fi مفتوحة أو مؤمنة "</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@android:id/body" android:paddingTop="@dimen/alert_dialog_padding_top_material" android:paddingBottom="@dimen/alert_dialog_padding_top_material" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:paddingStart="@dimen/alert_dialog_padding_material" android:paddingEnd="@dimen/alert_dialog_padding_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@android:id/progress" android:layout_width="@dimen/dialog_progress_bar_size_width" android:layout_height="@dimen/dialog_progress_bar_size_height" android:max="10000" android:layout_marginEnd="@dimen/dialog_progress_bar_end_margin" style="?android:attr/progressBarStyle" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <TextView android:textAppearance="@style/LGTextAppearance.Dialog.Progress" android:layout_gravity="start|center" android:id="@android:id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="@style/LGTextAppearance.Dialog.Progress.Sub" android:layout_gravity="start|bottom|center" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

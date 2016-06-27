@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.NextiKeyguardSelectorView android:orientation="vertical" android:id="@id/nexti_keyguard_selector_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/keyguard_accessibility_unlock_area_nexti"
+  xmlns:prvandroid="http://schemas.android.com/apk/prv/res/android"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="392.0dip">
+            <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/chara" android:layout_width="304.0dip" android:layout_height="72.0dip" android:layout_marginTop="44.0dip" android:layout_marginBottom="44.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/lock" android:layout_width="fill_parent" android:layout_height="92.0dip" android:layout_marginBottom="4.0dip">
+                <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip">
+                    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@id/doc_imageView_camera" android:layout_width="84.0dip" android:layout_height="84.0dip" android:src="@drawable/btn_dock_camera_nexti" android:scaleType="fitXY" android:contentDescription="@string/keyguard_accessibility_icon_nexti" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+                    <include android:id="@id/point_touch_unlock_frame" layout="@layout/touch_point_unlock_frame" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip">
+                    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@id/doc_imageView_mascot_voice" android:layout_width="84.0dip" android:layout_height="84.0dip" android:src="@drawable/btn_mascotvoice_nexti" android:scaleType="fitXY" android:contentDescription="@string/keyguard_accessibility_icon_nexti" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/doc_bottom" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginBottom="16.0dip">
+                <LinearLayout android:layout_width="76.0dip" android:layout_height="fill_parent" />
+                <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <FrameLayout android:id="@id/doc_frame2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="bottom|center" android:id="@id/history_atticon2" android:background="@drawable/ic_history_call" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="fitXY" android:singleLine="true" android:includeFontPadding="false" android:shadowColor="#80000000" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="0.0" android:contentDescription="@string/keyguard_accessibility_icon_nexti" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_width="48.0dip" android:layout_height="fill_parent" />
+                <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <FrameLayout android:id="@id/doc_frame3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="bottom|center" android:id="@id/history_atticon3" android:background="@drawable/ic_history_mail" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="fitXY" android:singleLine="true" android:includeFontPadding="false" android:shadowColor="#80000000" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="0.0" android:contentDescription="@string/keyguard_accessibility_icon_nexti" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_width="76.0dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="28.0dip">
+                <com.android.internal.policy.impl.keyguard.KeyguardMessageArea android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center|top" android:id="@id/keyguard_message_area" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:shadowColor="#80000000" android:shadowDx="0.0" android:shadowDy="1.2" android:shadowRadius="0.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/nexti_keyguard_selector_fade_container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginBottom="4.0dip">
+                <com.android.internal.policy.impl.keyguard.CarrierText android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:shadowColor="#80000000" android:shadowDx="0.0" android:shadowDy="1.2" android:shadowRadius="0.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</com.android.internal.policy.impl.keyguard.NextiKeyguardSelectorView>

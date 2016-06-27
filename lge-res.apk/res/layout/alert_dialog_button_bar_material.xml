@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.ButtonBarLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@android:id/buttonPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alert_dialog_button_bar_height" android:layoutDirection="locale" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android_private:allowStacking="@bool/allow_stacked_button_bar" style="?android:attr/buttonBarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:android_private="http://schemas.android.com/apk/prv/res/android">
+    <Space android:id="@android:id/spacer" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:id="@android:id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/buttonBarNegativeButtonStyle" />
+    <Button android:id="@android:id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/buttonBarNeutralButtonStyle" />
+    <Button android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/buttonBarPositiveButtonStyle" />
+</com.android.internal.widget.ButtonBarLayout>

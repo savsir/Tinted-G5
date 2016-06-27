@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:paddingMode="nest"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple android:color="?android:colorControlHighlight">
+            <item android:id="@android:id/mask">
+                <color android:color="@android:color/white" />
+            </item>
+        </ripple>
+    </item>
+    <item android:gravity="bottom">
+        <inset android:insetLeft="@dimen/tab_padding_horizontal" android:insetRight="@dimen/tab_padding_horizontal" android:insetBottom="@dimen/tab_underline_margin_bottom">
+            <shape android:tint="@color/tab_text_color_selected_material" android:shape="rectangle">
+                <size android:height="@dimen/tab_underline_height" />
+                <solid android:color="@color/tab_indicator_material" />
+            </shape>
+        </inset>
+    </item>
+    <item android:drawable="@android:color/transparent" android:bottom="@dimen/tab_underline_margin_bottom" />
+</layer-list>

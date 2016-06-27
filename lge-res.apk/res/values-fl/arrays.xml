@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>M70044</item>
+        <item>T10668</item>
+        <item>M82458</item>
+        <item>M82459</item>
+        <item>M82460</item>
+        <item>M70047</item>
+        <item>M82462</item>
+        <item>T41096</item>
+        <item>E78542</item>
+    </string-array>
+    <string-array name="STR_res_SMSERRORCODE_NORMAL">
+        <item>M88363</item>
+        <item>F00429</item>
+        <item>M02766</item>
+        <item>T31485</item>
+    </string-array>
+    <string-array name="STR_res_SMSCAUSECODE_NORMAL">
+        <item>T23347</item>
+        <item>T31488</item>
+        <item>T23348</item>
+        <item>T23349</item>
+        <item>T23351</item>
+        <item>T23355</item>
+        <item>T23357</item>
+        <item>T23358</item>
+        <item>T23359</item>
+        <item>T23360</item>
+        <item>T23362</item>
+        <item>T23363</item>
+        <item>T23365</item>
+        <item>T23367</item>
+        <item>T23367</item>
+        <item>T71858</item>
+        <item>T23369</item>
+        <item>T23370</item>
+        <item>T23371</item>
+        <item>T23372</item>
+        <item>T23373</item>
+        <item>T23374</item>
+        <item>T23375</item>
+        <item>T23376</item>
+        <item>T23378</item>
+        <item>T23379</item>
+        <item>T23380</item>
+        <item>T23381</item>
+        <item>T23382</item>
+        <item>T23383</item>
+        <item>F00429</item>
+        <item>T23385</item>
+        <item>T23386</item>
+        <item>T23387</item>
+        <item>T23388</item>
+        <item>T23389</item>
+        <item>T23390</item>
+        <item>T23391</item>
+        <item>T23392</item>
+        <item>M93552</item>
+        <item>T23393</item>
+        <item>T23394</item>
+        <item>T23395</item>
+        <item>T23396</item>
+        <item>T23397</item>
+        <item>T23398</item>
+        <item>T31517</item>
+        <item>T23400</item>
+        <item>T23401</item>
+        <item>T23402</item>
+        <item>T23403</item>
+    </string-array>
+    <string-array name="time_display_mode">
+        <item>H08154</item>
+        <item>H08155</item>
+    </string-array>
+</resources>

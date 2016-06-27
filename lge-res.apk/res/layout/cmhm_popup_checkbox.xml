@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:textSize="16.0sp" android:textColor="#ff000000" android:layout_gravity="start|bottom|center" android:id="@id/cmhm_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="12.0dip" android:checked="false" android:button="@drawable/btn_checkbox_holo_light" android:text="@string/sp_do_not_show_this_again_NORMAL" android:includeFontPadding="false" android:paddingStart="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+</LinearLayout>

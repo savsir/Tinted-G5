@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:paddingTop="@dimen/list_separator_top_padding" android:paddingBottom="@dimen/list_separator_bottom_padding" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" android:paddingMode="nest"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="top">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/list_separator_divider_height" />
+            <solid android:color="@color/list_separator_divider_color" />
+        </shape>
+    </item>
+    <item android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/list_separator_divider_height" />
+            <solid android:color="@color/list_separator_divider_color" />
+        </shape>
+    </item>
+    <item>
+        <inset android:insetTop="?android:dividerHeight" android:insetBottom="?android:dividerHeight">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/list_separator_background_color" />
+            </shape>
+        </inset>
+    </item>
+</layer-list>

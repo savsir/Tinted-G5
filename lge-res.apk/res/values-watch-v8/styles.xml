@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LGE.Default" parent="@style/Theme.LGE.Micro.Light" />
+    <style name="Theme.LGE.Default.Dialog" parent="@style/Theme.LGE.Micro.Dialog" />
+    <style name="Theme.LGE.Default.DialogWhenLarge" parent="@style/Theme.LGE.Micro.Dialog" />
+    <style name="Theme.LGE.Default.Dialog.Alert" parent="@style/Theme.LGE.Micro.Dialog.Alert" />
+    <style name="Theme.LGE.Default.NoActionBar" parent="@style/Theme.LGE.Micro.Light" />
+    <style name="Theme.LGE.Default.DarkActionBar" parent="@style/Theme.LGE.Micro.Light" />
+    <style name="Theme.LGE.Default.Wallpaper" parent="@style/Theme.LGE.Micro" />
+    <style name="Theme.LGE.White" parent="@style/Theme.LGE.Default" />
+    <style name="Theme.LGE.White.Dialog" parent="@style/Theme.LGE.Default.Dialog" />
+    <style name="Theme.LGE.White.DialogWhenLarge" parent="@style/Theme.LGE.Default.DialogWhenLarge" />
+    <style name="Theme.LGE.White.Dialog.Alert" parent="@style/Theme.LGE.Default.Dialog.Alert" />
+    <style name="Theme.LGE.White.NoActionBar" parent="@style/Theme.LGE.Default.NoActionBar" />
+    <style name="Theme.LGE.White.DarkActionBar" parent="@style/Theme.LGE.Default.DarkActionBar" />
+    <style name="Theme.LGE.White.Wallpaper" parent="@style/Theme.LGE.Default.Wallpaper" />
+    <style name="Theme.LGE.Black" parent="@style/Theme.LGE.Default" />
+    <style name="Theme.LGE.Black.Dialog" parent="@style/Theme.LGE.Default.Dialog" />
+    <style name="Theme.LGE.Black.DialogWhenLarge" parent="@style/Theme.LGE.Default.DialogWhenLarge" />
+    <style name="Theme.LGE.Black.Dialog.Alert" parent="@style/Theme.LGE.Default.Dialog.Alert" />
+    <style name="Theme.LGE.Black.NoActionBar" parent="@style/Theme.LGE.Default.NoActionBar" />
+    <style name="Theme.LGE.Black.DarkActionBar" parent="@style/Theme.LGE.Default.DarkActionBar" />
+    <style name="Theme.LGE.Black.Wallpaper" parent="@style/Theme.LGE.Default.Wallpaper" />
+    <style name="Theme.LGE.Default.DarkActionBar.Dialog" parent="@style/Theme.LGE.Micro.Dialog" />
+    <style name="Theme.LGE.Default.DarkActionBar.DialogWhenLarge" parent="@style/Theme.LGE.Micro.Dialog" />
+    <style name="Theme.LGE.Default.DarkActionBar.Dialog.Alert" parent="@style/Theme.LGE.Micro.Dialog.Alert" />
+    <style name="Theme.LGE.Default.DarkActionBar.NoActionBar" parent="@style/Theme.LGE.Micro.Light" />
+    <style name="Theme.LGE.Default.DarkActionBar.Wallpaper" parent="@style/Theme.LGE.Micro" />
+    <style name="Theme.LGE.White.DarkActionBar.Dialog" parent="@style/Theme.LGE.Default.DarkActionBar.Dialog" />
+    <style name="Theme.LGE.White.DarkActionBar.DialogWhenLarge" parent="@style/Theme.LGE.Default.DarkActionBar.DialogWhenLarge" />
+    <style name="Theme.LGE.White.DarkActionBar.Dialog.Alert" parent="@style/Theme.LGE.Default.DarkActionBar.Dialog.Alert" />
+    <style name="Theme.LGE.White.DarkActionBar.NoActionBar" parent="@style/Theme.LGE.Default.DarkActionBar.NoActionBar" />
+    <style name="Theme.LGE.White.DarkActionBar.Wallpaper" parent="@style/Theme.LGE.Default.DarkActionBar.Wallpaper" />
+    <style name="Theme.RuntimePermissionsActivity" parent="@style/Theme.LGE.White">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

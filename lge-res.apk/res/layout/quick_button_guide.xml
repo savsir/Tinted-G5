@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="5.0pt" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/setting_recentapp_help_qbutton_image" />
+    <TextView android:id="@id/guide_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <CheckBox android:id="@id/guide_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/sp_do_not_show_this_again_NORMAL" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d daqiqa davomida</item>
+        <item quantity="one">Bir daqiqa uchun</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d soat davomida</item>
+        <item quantity="one">Bir soat uchun</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">Ochiq yoki himoyalangan Wi-Fi tarmoqlar mavjud</item>
+        <item quantity="one">Ochiq yoki himoyalanganWi-Fi tarmoq mavjud</item>
+    </plurals>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>ஹோம்</item>
+        <item>வேலை</item>
+        <item>மற்றவை</item>
+        <item>கஸ்டம்</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>வேலை</item>
+        <item>மற்றவை</item>
+        <item>கஸ்டம்</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>ஹோம்</item>
+        <item>மொபைல்</item>
+        <item>வேலை</item>
+        <item>பணியிட ஃபேக்ஸ்</item>
+        <item>ஹோம் ஃபேக்ஸ்</item>
+        <item>பேஜர்</item>
+        <item>மற்றவை</item>
+        <item>கஸ்டம்</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>ஹோம்</item>
+        <item>வேலை</item>
+        <item>மற்றவை</item>
+        <item>கஸ்டம்</item>
+    </string-array>
+    <array name="wfcOperatorErrorAlertMessages" />
+    <array name="wfcOperatorErrorNotificationMessages" />
+    <string-array name="fingerprint_acquired_vendor">
+        <item>"உங்கள் விரலை ஒவ்வொரு முறையும்
+வித்தியாசமாக வைக்கவும்."</item>
+        <item>"ஃபிங்கர்ப்ரிண்ட் ஏற்கனவே சேர்க்கப்பட்டது.
+வேறொரு விரலை வைக்கவும்."</item>
+    </string-array>
+    <array name="fingerprint_error_vendor" />
+    <string-array name="imAddressTypes">
+        <item>ஹோம்</item>
+        <item>வேலை</item>
+        <item>மற்றவை</item>
+        <item>கஸ்டம்</item>
+    </string-array>
+</resources>

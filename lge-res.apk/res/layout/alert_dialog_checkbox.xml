@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.329987sp" android:textColor="#ff000000" android:padding="5.0pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sp_dlg_global_NORMAL" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:textSize="17.329987sp" android:textColor="#ff000000" android:id="@id/check" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@drawable/btn_checkbox_holo_light" android:text="@string/sp_dlg_global_check_select" />
+    </ScrollView>
+</LinearLayout>

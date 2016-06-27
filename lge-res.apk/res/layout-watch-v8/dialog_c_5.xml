@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="?android:dialogPreferredPadding" android:paddingEnd="?android:dialogPreferredPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@android:id/icon1" android:layout_width="@dimen/dialog_list_icon_size_height" android:layout_height="@dimen/dialog_list_icon_size_width" android:scaleType="fitXY" android:layout_marginEnd="@dimen/dialog_list_icon_gap_with_text" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="?android:textColorSecondary" android:ellipsize="marquee" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

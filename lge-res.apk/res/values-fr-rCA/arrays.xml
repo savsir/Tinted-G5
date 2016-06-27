@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinois (GBK)</item>
+        <item>Chinois (Big5)</item>
+        <item>Japonais (ISO-2022-JP)</item>
+        <item>Japonais (SHIFT_JIS)</item>
+        <item>Japonais (EUC-JP)</item>
+        <item>Coréen (EUC-KR)</item>
+        <item>Russe (Windows-1251)</item>
+    </string-array>
+    <string-array name="STR_res_SMSERRORCODE_NORMAL">
+        <item>Aucun</item>
+        <item>Réservé</item>
+        <item>Temporaire</item>
+        <item>Permanent</item>
+    </string-array>
+    <string-array name="STR_res_SMSCAUSECODE_NORMAL">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Réservé</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="time_display_mode">
+        <item>Heure de Beijing</item>
+        <item>Heure locale</item>
+    </string-array>
+</resources>

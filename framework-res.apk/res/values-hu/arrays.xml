@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Otthon</item>
+        <item>Munka</item>
+        <item>Egyéb</item>
+        <item>Egyéni</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Csevegő</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Munka</item>
+        <item>Egyéb</item>
+        <item>Egyéni</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Otthon</item>
+        <item>Mobil</item>
+        <item>Munka</item>
+        <item>Munkahely Fax</item>
+        <item>Otthoni fax</item>
+        <item>Személyhívó</item>
+        <item>Egyéb</item>
+        <item>Egyéni</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Otthon</item>
+        <item>Munka</item>
+        <item>Egyéb</item>
+        <item>Egyéni</item>
+    </string-array>
+    <array name="wfcOperatorErrorAlertMessages" />
+    <array name="wfcOperatorErrorNotificationMessages" />
+    <string-array name="fingerprint_acquired_vendor">
+        <item>"Minden alkalommal másképp
+helyezze vissza az ujját."</item>
+        <item>"Az ujjlenyomat már hozzá lett adva.
+Helyezzen rá másik ujjat."</item>
+    </string-array>
+    <array name="fingerprint_error_vendor" />
+    <string-array name="imAddressTypes">
+        <item>Otthon</item>
+        <item>Munka</item>
+        <item>Egyéb</item>
+        <item>Egyéni</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="windowStatusBarBackground" format="reference|color" />
+    <attr name="windowNavigationBarBackground" format="reference|color" />
+    <attr name="overflowShowAll" format="boolean" />
+    <attr name="enableDynamicSpinner" format="boolean" />
+    <attr name="uselgtheme" format="boolean" />
+    <attr name="contextDialogCancelButton" format="boolean" />
+    <attr name="enable" format="boolean" />
+    <attr name="thermalType" format="string" />
+    <attr name="sysNode" format="string" />
+    <attr name="period" format="integer" />
+    <attr name="scenarioName" format="string" />
+    <attr name="threshold" format="float" />
+    <attr name="observerName" format="string" />
+    <attr name="thresholdMax" format="float" />
+    <attr name="thresholdMin" format="float" />
+    <attr name="action" format="string" />
+    <attr name="target" format="string" />
+    <attr name="windowMaxWidthMajor" format="dimension|fraction" />
+    <attr name="windowMaxWidthMinor" format="dimension|fraction" />
+</resources>

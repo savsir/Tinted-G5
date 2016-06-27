@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.internal.policy.impl.keyguard.PointTouchUnlockFrame android:layout_gravity="center" android:id="@id/unlock_touch_point" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/button_tap" android:visibility="invisible" android:layout_width="92.0dip" android:layout_height="92.0dip" android:src="@drawable/btn_flash_tap" android:scaleType="fitXY" android:contentDescription="@string/keyguard_accessibility_unlock_nexti" />
+        <ImageView android:layout_gravity="center" android:id="@id/button_blinkfield" android:layout_width="92.0dip" android:layout_height="92.0dip" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="center" android:id="@id/padlock_image" android:layout_width="84.0dip" android:layout_height="84.0dip" android:src="@drawable/btn_unlock_a" android:scaleType="fitXY" android:contentDescription="@string/keyguard_accessibility_touch_unlock_nexti" />
+    </com.android.internal.policy.impl.keyguard.PointTouchUnlockFrame>
+</FrameLayout>

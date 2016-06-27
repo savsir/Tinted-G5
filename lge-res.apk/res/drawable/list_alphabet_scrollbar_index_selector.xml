@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/list_alphabet_scrollbar_index" android:tint="?android:colorControlActivated" android:alpha="@dimen/icon_disabled_alpha" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/list_alphabet_scrollbar_index" android:tint="?android:colorControlActivated" />
+    </item>
+</selector>

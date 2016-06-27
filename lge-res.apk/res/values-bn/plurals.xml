@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d মিনিটের জন্য</item>
+        <item quantity="one">1 মিনিটের জন্য</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d ঘন্টার জন্য</item>
+        <item quantity="one">এক ঘন্টার জন্য</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">খোলা অথবা সুরক্ষিত Wi-Fi নেটওয়ার্কগুলি উপলভ্য</item>
+        <item quantity="one">খোলা অথবা সুরক্ষিত Wi-Fi নেটওয়ার্ক উপলভ্য</item>
+    </plurals>
+</resources>

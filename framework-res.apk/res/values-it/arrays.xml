@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Casa</item>
+        <item>Ufficio</item>
+        <item>Altro</item>
+        <item>Personalizzato</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Ufficio</item>
+        <item>Altro</item>
+        <item>Personalizzato</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Casa</item>
+        <item>Cellulare</item>
+        <item>Ufficio</item>
+        <item>Fax ufficio</item>
+        <item>Fax casa</item>
+        <item>Cercapersone</item>
+        <item>Altro</item>
+        <item>Personalizzato</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Casa</item>
+        <item>Ufficio</item>
+        <item>Altro</item>
+        <item>Personalizzato</item>
+    </string-array>
+    <array name="wfcOperatorErrorAlertMessages" />
+    <array name="wfcOperatorErrorNotificationMessages" />
+    <string-array name="fingerprint_acquired_vendor">
+        <item>"Posiziona il dito
+diversamente ogni volta."</item>
+        <item>"Impronta digitale già aggiunta.
+Posiziona un dito diverso."</item>
+    </string-array>
+    <array name="fingerprint_error_vendor" />
+    <string-array name="imAddressTypes">
+        <item>Casa</item>
+        <item>Ufficio</item>
+        <item>Altro</item>
+        <item>Personalizzato</item>
+    </string-array>
+</resources>

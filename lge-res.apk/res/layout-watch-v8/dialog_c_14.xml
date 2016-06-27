@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/alert_dialog_padding_top_material" android:paddingBottom="@dimen/alert_dialog_padding_top_material" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialog_text_field_header_size_height" android:layoutDirection="locale" android:paddingStart="@dimen/alert_dialog_padding_material" android:paddingEnd="@dimen/alert_dialog_padding_material">
+        <TextView android:textAppearance="@style/LGTextAppearance.Dialog.Label" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" />
+        <TextView android:ellipsize="marquee" android:id="@android:id/text2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    <SeekBar android:id="@android:id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_seekbar_padding_start" android:paddingEnd="@dimen/dialog_seekbar_padding_end" />
+</LinearLayout>

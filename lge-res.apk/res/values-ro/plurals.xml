@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Timp de %d (de) minute</item>
+        <item quantity="one">Timp de un minut</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Timp de %d (de) ore</item>
+        <item quantity="one">Timp de o oră</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">Reţele Wi-Fi deschise sau securizate disponibile</item>
+        <item quantity="one">Reţele Wi-Fi deschise sau securizate disponibile</item>
+    </plurals>
+</resources>

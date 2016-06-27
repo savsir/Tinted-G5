@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alert_dialog_button_text_size">17.0sp</dimen>
+    <dimen name="theme_app_icon_size">54.0dip</dimen>
+    <dimen name="alert_dialog_width">244.66998dip</dimen>
+    <dimen name="alert_dialog_height">301.32812dip</dimen>
+    <dimen name="alert_dialog_topPanel_marginTop">-8.0dip</dimen>
+    <dimen name="alert_dialog_title_padding">34.669983dip</dimen>
+    <dimen name="alert_dialog_message_padding">36.669983dip</dimen>
+    <dimen name="alert_dialog_button_padding_bottom">34.0dip</dimen>
+    <dimen name="alert_dialog_button_padding_end">38.0dip</dimen>
+    <dimen name="alert_dialog_button_padding_start">38.0dip</dimen>
+</resources>

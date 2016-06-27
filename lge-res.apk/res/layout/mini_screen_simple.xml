@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mini_window_root" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@android:id/content" android:layout_width="@dimen/mini_activity_content_width" android:layout_height="@dimen/mini_activity_height" android:foreground="?android:windowContentOverlay" android:layout_alignParentRight="true" android:foregroundGravity="fill_horizontal|center|top" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">‏بۆ ماوەی %d خولەك</item>
+        <item quantity="one">‏بۆ یەك خولەك</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">‏بۆ ماوەی %d كاتژمێر</item>
+        <item quantity="one">‏بۆ یەك كاتژمێر</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">‏رایه‌ڵه‌کانی‌ کراوه‌ یان نائه‌منیWi-Fi له‌ به‌رده‌ستن</item>
+        <item quantity="one">‏رایه‌ڵه‌ی کراوه‌ یان نائه‌منیWi-Fi له‌ به‌رده‌سته‌</item>
+    </plurals>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">1時間</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">Wi-Fiネットワーク(セキュリティ:無し・有り)が使用可能です</item>
+        <item quantity="one">Wi-Fiネットワーク(セキュリティ:無し・有り)が使用可能です</item>
+    </plurals>
+</resources>

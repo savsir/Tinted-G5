@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alert_dialog_title_height">42.0dip</dimen>
+    <dimen name="alert_dialog_message_padding_top">10.0dip</dimen>
+    <dimen name="alert_dialog_message_padding_bottom">10.0dip</dimen>
+    <dimen name="button_bar_height">42.0dip</dimen>
+    <dimen name="alert_dialog_button_bar_height">42.0dip</dimen>
+    <dimen name="dialog_initial_checkbox_drawable_padding">12.0dip</dimen>
+    <dimen name="edittext_min_height">42.0dip</dimen>
+    <dimen name="edit_text_inset_top_material">6.0dip</dimen>
+    <dimen name="edit_text_inset_bottom_material">6.0dip</dimen>
+    <dimen name="list_item_preferred_height_small">42.0dip</dimen>
+    <dimen name="list_item_preferred_height_medium">60.0dip</dimen>
+    <dimen name="list_item_preferred_height_padding_left">16.0dip</dimen>
+    <dimen name="list_item_preferred_height_padding_right">16.0dip</dimen>
+    <dimen name="list_item_preferred_height_padding_start">16.0dip</dimen>
+    <dimen name="list_item_preferred_height_padding_end">16.0dip</dimen>
+    <dimen name="control_corner_material">0.0dip</dimen>
+    <dimen name="dialog_padding_material">16.0dip</dimen>
+    <dimen name="button_inset_vertical_material">2.0dip</dimen>
+    <dimen name="button_inset_horizontal_material">2.0dip</dimen>
+    <dimen name="button_padding_vertical_material">0.0dip</dimen>
+    <dimen name="button_padding_horizontal_material">16.0dip</dimen>
+    <dimen name="button_stroke_width">2.0dip</dimen>
+    <dimen name="dialog_checkbox_margin">12.0dip</dimen>
+    <dimen name="text_size_button_material">24.0sp</dimen>
+    <dimen name="text_size_subhead_material">24.0sp</dimen>
+    <dimen name="text_size_body_1_material">21.0sp</dimen>
+    <dimen name="text_size_large_material">27.0sp</dimen>
+    <dimen name="text_size_medium_material">24.0sp</dimen>
+    <dimen name="text_size_small_material">21.0sp</dimen>
+</resources>

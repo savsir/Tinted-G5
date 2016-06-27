@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Trong %d phút</item>
+        <item quantity="one">Trong một phút</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Trong %d giờ</item>
+        <item quantity="one">Trong một giờ</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">Có sẵn các mạng Wi-Fi mở hoặc được bảo mật</item>
+        <item quantity="one">Có sẵn các mạng Wi-Fi mở hoặc được bảo mật</item>
+    </plurals>
+</resources>

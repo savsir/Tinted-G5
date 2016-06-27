@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_shape_rectangle_stroke">#19000000</color>
+    <color name="list_divider_color">#26000000</color>
+    <color name="button_bar_background_color">#ffedeef0</color>
+    <color name="secondary_text_default_material_light">#99000000</color>
+    <color name="color_accent_ui">#ff27c4aa</color>
+    <color name="color_control_normal_ui">#ff8c8c8c</color>
+</resources>

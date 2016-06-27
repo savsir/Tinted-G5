@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alert_dialog_title_height" android:paddingStart="@dimen/alert_dialog_padding_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/LGTextAppearance.Dialog.Title" android:id="@android:id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ImageButton android:id="@android:id/button1" android:background="?android:listChoiceBackgroundIndicator" android:layout_width="@dimen/dialog_sub_button_size_width" android:layout_height="@dimen/dialog_sub_button_size_height" android:scaleType="center" />
+</LinearLayout>

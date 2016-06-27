@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="true">
+        <bitmap android:src="@drawable/btn_check_to_on_mtrl_015_filled" android:alpha="?android:disabledAlpha" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/btn_check_to_on_mtrl_000_filled" android:alpha="?android:disabledAlpha" />
+    </item>
+    <item android:state_checked="true" android:id="@android:id/on">
+        <bitmap android:src="@drawable/btn_check_to_on_mtrl_015_filled" />
+    </item>
+    <item android:id="@android:id/off">
+        <bitmap android:src="@drawable/btn_check_to_on_mtrl_000_filled" />
+    </item>
+    <transition android:toId="@android:id/on" android:fromId="@android:id/off">
+        <animation-list>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_000_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_001_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_002_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_003_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_004_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_005_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_006_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_007_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_008_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_009_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_010_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_011_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_012_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_013_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_014_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_on_mtrl_015_filled" />
+            </item>
+        </animation-list>
+    </transition>
+    <transition android:toId="@android:id/off" android:fromId="@android:id/on">
+        <animation-list>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_000_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_001_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_002_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_003_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_004_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_005_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_006_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_007_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_008_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_009_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_010_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_011_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_012_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_013_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_014_filled" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/btn_check_to_off_mtrl_015_filled" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

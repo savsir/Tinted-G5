@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/LGTextAppearance.Dialog.Message" android:gravity="start|center" android:id="@android:id/text1" android:paddingTop="@dimen/alert_dialog_message_padding_top" android:paddingBottom="@dimen/alert_dialog_message_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/alert_dialog_padding_material" android:paddingEnd="@dimen/alert_dialog_padding_material"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

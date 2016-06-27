@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LGE.Default.DialogWhenLarge" parent="@style/Theme.LGE.Default.Dialog.FixedSize" />
+    <style name="Theme.LGE.Default.DialogWhenLarge.NoActionBar" parent="@style/Theme.LGE.Default.Dialog.NoActionBar.FixedSize" />
+    <style name="Theme.LGE.Default.DarkActionBar.DialogWhenLarge" parent="@style/Theme.LGE.Default.DarkActionBar.Dialog.FixedSize" />
+    <style name="Theme.LGE.Default.DarkActionBar.DialogWhenLarge.NoActionBar" parent="@style/Theme.LGE.Default.DarkActionBar.Dialog.NoActionBar.FixedSize" />
+</resources>

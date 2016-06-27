@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">Један минут</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d сат.</item>
+        <item quantity="one">Један сат</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">Отворене или обезбеђене Wi-Fi мреже су доступне</item>
+        <item quantity="one">Отворена или обезбеђена Wi-Fi мрежа је доступна</item>
+    </plurals>
+</resources>

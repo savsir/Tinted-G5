@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThermalInfo lge:enable="true"
+  xmlns:lge="http://schemas.android.com/apk/res/com.lge">
+    <ThermalSensorList>
+        <ThermalSensor lge:thermalType="xo" lge:sysNode="/sys/class/hwmon/hwmon0/device/xo_therm_pu2" lge:period="5000">
+            <ScenarioList />
+            <ObserverList>
+                <Observer lge:observerName="com.lge.mlt.check_temperature" lge:thresholdMax="100.0" lge:thresholdMin="55.0" lge:action="com.lge.mlt.service.intent.action.XO_Thermal_LOG" lge:target="com.lge.mlt" />
+            </ObserverList>
+        </ThermalSensor>
+        <ThermalSensor lge:thermalType="battery" lge:sysNode="/sys/class/power_supply/battery/temp" lge:period="5000">
+            <ScenarioList />
+            <ObserverList>
+                <Observer lge:observerName="com.lge.camera.check_shutdown" lge:thresholdMax="100.0" lge:thresholdMin="51.0" lge:action="com.lge.android.intent.action.SHUTDOWN_CAMERA" lge:target="com.lge.camera" />
+            </ObserverList>
+        </ThermalSensor>
+    </ThermalSensorList>
+</ThermalInfo>

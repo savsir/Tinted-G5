@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/alert_dialog_padding_material" android:paddingEnd="@dimen/alert_dialog_padding_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@android:id/icon1" android:layout_width="@dimen/dialog_list_icon_size_height" android:layout_height="@dimen/dialog_list_icon_size_width" android:scaleType="fitXY" android:layout_marginEnd="@dimen/dialog_list_icon_gap_with_text" />
+    <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="end" android:id="@android:id/text1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="@integer/alert_dialog_list_item_text_max_lines" android:singleLine="false" android:layout_weight="1.0" />
+    <ImageView android:id="@android:id/icon2" android:visibility="gone" android:layout_width="@dimen/dialog_list_icon_size_height" android:layout_height="@dimen/dialog_list_icon_size_width" android:scaleType="fitXY" android:layout_marginStart="@dimen/dialog_list_icon_gap_with_text" />
+</LinearLayout>

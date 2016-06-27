@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:textAppearance="@style/LGTextAppearance.Dialog.CheckBox" android:ellipsize="@integer/ellipsize_checkbox_on_dialog" android:id="@android:id/checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_checkbox_margin_top" android:layout_marginBottom="@dimen/dialog_checkbox_margin_bottom" android:minHeight="?android:listPreferredItemHeightSmall" android:maxLines="@integer/max_lines_checkbox_on_dialog" android:singleLine="@bool/single_line_checkbox_on_dialog" android:drawableLeft="@android:color/transparent" android:drawablePadding="@dimen/dialog_initial_checkbox_drawable_padding" android:layout_marginStart="@dimen/dialog_checkbox_margin" android:layout_marginEnd="@dimen/dialog_checkbox_margin" />
+</LinearLayout>

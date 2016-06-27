@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Οικία</item>
+        <item>Εργασία</item>
+        <item>Άλλο</item>
+        <item>Προσαρμοσμένη</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Εργασία</item>
+        <item>Άλλο</item>
+        <item>Προσαρμοσμένη</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Οικία</item>
+        <item>Κινητό</item>
+        <item>Εργασία</item>
+        <item>Φαξ εργασίας</item>
+        <item>Φαξ οικίας</item>
+        <item>Βομβητής</item>
+        <item>Άλλο</item>
+        <item>Προσαρμοσμένη</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Οικία</item>
+        <item>Εργασία</item>
+        <item>Άλλο</item>
+        <item>Προσαρμοσμένη</item>
+    </string-array>
+    <array name="wfcOperatorErrorAlertMessages" />
+    <array name="wfcOperatorErrorNotificationMessages" />
+    <string-array name="fingerprint_acquired_vendor">
+        <item>"Τοποθετείτε το δάχτυλό σας
+διαφορετικά κάθε φορά."</item>
+        <item>"Το δακτυλικό αποτύπωμα έχει ήδη προστεθεί.
+Τοποθετήστε άλλο δάχτυλο."</item>
+    </string-array>
+    <array name="fingerprint_error_vendor" />
+    <string-array name="imAddressTypes">
+        <item>Οικία</item>
+        <item>Εργασία</item>
+        <item>Άλλο</item>
+        <item>Προσαρμοσμένη</item>
+    </string-array>
+</resources>

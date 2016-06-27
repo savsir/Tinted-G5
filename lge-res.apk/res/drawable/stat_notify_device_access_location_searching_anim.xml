@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="500" android:drawable="@drawable/stat_notify_device_access_location_found" />
+    <item android:duration="500" android:drawable="@drawable/stat_notify_device_access_location_searching" />
+</animation-list>

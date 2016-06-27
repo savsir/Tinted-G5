@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="109.0dip" android:layout_alignParentRight="true">
+        <Button android:id="@id/global_poweroff_cancelButton_covered" android:background="@drawable/btn_alicecover_power_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="54.5dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:rotation="270.0" />
+        <Button android:id="@id/global_poweroff_okButton_covered" android:background="@drawable/btn_alicecover_power_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="54.5dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:rotation="270.0" />
+        <TextView android:textSize="50.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/global_title_power_off_text" android:layout_width="270.0dip" android:layout_height="wrap_content" android:layout_marginLeft="214.0dip" android:text="@string/global_action_power_off" android:layout_centerVertical="true" android:translationX="-101.75dip" android:rotation="270.0" android:textAlignment="center" />
+    </RelativeLayout>
+</RelativeLayout>

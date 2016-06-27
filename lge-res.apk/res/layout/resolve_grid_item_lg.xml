@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="82.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/chooser_grid_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="3.0dip" android:scaleType="fitCenter" />
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/chooser_target_badge" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <TextView android:textSize="11.5dip" android:textColor="#ff000000" android:ellipsize="marquee" android:gravity="center|top" android:id="@id/chooser_grid_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="5.0dip" android:maxLines="2" android:minLines="2" android:lineSpacingExtra="0.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="11.5dip" android:ellipsize="marquee" android:gravity="center|top" android:id="@id/chooser_grid_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:maxLines="2" android:minLines="2" />
+</LinearLayout>

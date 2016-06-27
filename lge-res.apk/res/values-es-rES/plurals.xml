@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Por %d minutos</item>
+        <item quantity="one">Por un minuto</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Por %d horas</item>
+        <item quantity="one">Por una hora</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">Redes Wi-Fi abiertas o seguras disponibles</item>
+        <item quantity="one">Redes Wi-Fi abiertas o seguras disponibles</item>
+    </plurals>
+</resources>

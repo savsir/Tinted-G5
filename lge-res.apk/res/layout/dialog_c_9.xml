@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/alert_dialog_message_padding_top" android:paddingBottom="@dimen/alert_dialog_message_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/alert_dialog_padding_material" android:paddingEnd="@dimen/alert_dialog_padding_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textStyle="bold" android:ellipsize="end" android:gravity="center_vertical" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="@dimen/dialog_text_field_header_size_height" android:singleLine="true" />
+    <EditText android:id="@android:id/edit" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

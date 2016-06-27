@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/global_restartButton_covered" android:background="@drawable/btn_alicecover_power_restart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="296.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="35.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/global_title_restart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="45.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="45.0dip" android:text="@string/global_action_power_restart" android:maxLines="2" android:layout_below="@id/global_restartButton_covered" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="0.9" android:textAlignment="center" />
+    <Button android:id="@id/global_poweroffButton_covered" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <TextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="#b2ffffff" android:id="@id/global_title_mdm_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginTop="51.0dip" android:layout_marginRight="72.0dip" android:text="@string/sp_lgmdm_desc_poweroff_NORMAL" android:layout_centerHorizontal="true" android:textAlignment="center" />
+</RelativeLayout>

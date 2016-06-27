@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sp_Device_Options_NORMAL">Device options</string>
+    <string name="global_actions">Phone options</string>
+    <string name="global_action_dialog_ok">Turn on</string>
+    <string name="sp_airplane_mode_message_NORMAL">"Airplane mode will be turned on.
+Calls and messages unavailable. All wireless connections such as Wi-Fi, Bluetooth and mobile data will be turned off. Wi-Fi and Bluetooth can be turned on again."</string>
+    <string name="sp_airplane_mode_message_NORMAL_5_0">To turn on Airplane mode, calls and messages will be unavailable. All wireless connections such as Wi-Fi, Bluetooth, and mobile data will be turned off. Wi-Fi and Bluetooth can be turned back on even when Airplane mode is on.</string>
+    <string name="sp_airplane_mode_message_NORMAL_ATT">Calls and messages unavailable. All wireless connections such as Wi-Fi, Bluetooth and mobile data will be turned off.</string>
+    <string name="sp_airplane_mode_enable_vzw_NORMAL2">"When Airplane mode is on, you won't be able to use the Internet, Email or other apps that need a data connection unless you use Wi-Fi. Your phone's Video Calling function won't work in Airplane mode.
+
+Turn on Airplane mode?"</string>
+    <string name="sp_phone_power_off_confirm_NORMAL">Phone will power off.</string>
+    <string name="sp_power_off_confirm_NORMAL">"Device will power off.
+Continue?"</string>
+    <string name="sp_restart_confirm_NORMAL">"Device will restart.
+Continue?"</string>
+    <string name="sp_phone_restart_confirm_NORMAL">Phone will restart.</string>
+    <string name="sp_lgmdm_block_gps_NORMAL">GPS is unavailable by server policy.</string>
+    <string name="sp_lock_pw_repeated_NORMAL">"Repeated characters '%s' are not allowed"</string>
+    <string name="sp_lock_pw_sequential_NORMAL">"Sequential characters '%s' are not allowed."</string>
+    <string name="sp_block_usb_thering_NORMAL">USB tethering is disabled by server policy</string>
+    <string name="sp_block_wifi_hotspot_NORMAL">Wi-Fi hotspot is unavailable by server policy.</string>
+    <string name="sp_lgmdm_EAS_password_SU_NORMAL">Must enter one of symbols or upper case letters.</string>
+    <string name="sp_lgmdm_EAS_password_SL_NORMAL">Must enter one of symbols or lower case letters.</string>
+    <string name="sp_lgmdm_storage_encryption_done">Storage is encrypted by server policy.</string>
+    <string name="sp_lgmdm_warning_banner_title">Note</string>
+    <string name="lockscreen_failed_attempts_almost_at_lockout" formatted="false">You have incorrectly attempted to unlock the phone %d times. After %d more unsuccessful attempts, the phone will be lockout.</string>
+    <string name="lockscreen_failed_attempts_now_lockouting">You have incorrectly attempted to unlock the phone %d times. The phone will now be lockout.</string>
+    <string name="sp_lgmdm_desc_dis_app_NORMAL">Prevent running apps on your phone</string>
+    <string name="sp_lgmdm_desc_dis_install_app_NORMAL">Prevent installing apps on your phone</string>
+    <string name="sp_lgmdm_desc_dis_uninstall_app_NORMAL">Prevent uninstalling apps on your phone</string>
+    <string name="sp_lgmdm_desc_wipe_appdata_NORMAL">Delete app data/cache/defaults on your phone</string>
+    <string name="sp_lgmdm_desc_set_email_NORMAL">Add or delete e-mail account and modify email settings</string>
+    <string name="sp_lgmdm_desc_dis_screen_capture_NORMAL">Prevent taking screenshots on your phone</string>
+    <string name="sp_lgmdm_desc_dis_del_account_NORMAL">Prevent deleting accounts on your phone</string>
+    <string name="sp_lgmdm_desc_dis_statusbar_NORMAL">Prevent swiping the Status Bar to use the Notification Panel.</string>
+    <string name="sp_lgmdm_desc_turnoff_mobile_NORMAL">Administrator turns your phone off</string>
+    <string name="sp_lgmdm_desc_dis_changing_wallpaper_NORMAL">Prevent changing wallpaper on your phone</string>
+    <string name="sp_lgmdm_desc_cc_mode">Use CC mode to keep phone secure</string>
+    <string name="sp_lgmdm_lab_dis_consumer_email_NORMAL">Disable e-mail account settings</string>
+    <string name="sp_lgmdm_block_common_NORMAL">%s is disabled by server policy</string>
+    <string name="sp_lgmdm_lab_dis_statusbar_NORMAL">Prevent swiping the Status Bar</string>
+    <string name="sp_lgmdm_lab_turnoff_mobile_NORMAL">Allow admin to turn phone off</string>
+    <string name="sp_lgmdm_block_androidbeam_NORMAL">Android Beam is disabled by server policy</string>
+    <string name="sp_lgmdm_block_androidbeam_point">Android Beam is disabled by server policy.</string>
+    <string name="sp_lgmdm_block_playstore_NORMAL">Google Play Store is unavailable by server policy. Related apps may be stopped.</string>
+    <string name="sp_lgmdm_block_statusbar_NORMAL">Notification Panel is unavailable on the Status Bar by server policy.</string>
+    <string name="sp_lgmdm_wireless_storage_disable_NORMAL">Wireless storage is unavailable by server policy.</string>
+    <string name="sp_lgmdm_block_multiuser_NORMAL">Phone administrator is not activated by server policy.</string>
+    <string name="sp_lgmdm_block_common_point">"'%s' is disabled by server policy."</string>
+    <string name="sp_lgmdm_desc_dev_mode">prevent to access developer option.</string>
+    <string name="sp_lgmdm_cc_mode_message">CC mode must be turned off to deactivate Phone administrators. Phone will restart when CC mode turned off. Turn off?</string>
+    <string name="sp_lgmdm_dis_quickcircle_NORMAL">Disable QuickCircle</string>
+    <string name="sp_lgmdm_desc_dis_quickcircle_NORMAL">Prevent use of QuickCircle</string>
+    <string name="sp_lgis_desc_use_lgis_NORMAL">Disable compromised apps on your phone</string>
+    <string name="STR_TITLETEXT_UICC_INVAILDPUK_COMMON_SHORT">"Incorrect PUK code! 
+Remains: %d time(s)"</string>
+    <string name="STR_TITLETEXT_UICC_REMAINING_COMMON_SHORT">Remains:</string>
+    <string name="STR_TITLETEXT_UICC_INVAILDPIN_COMMON_SHORT">"Incorrect PIN code! 
+Remains: %d time(s)"</string>
+    <string name="network_locked_dialog_message">The inserted user card is detected as mismatching with the terminal, please timely change for China Telecom 4G user card</string>
+    <string name="keyguard_pin_accepted">Code accepted!</string>
+    <string name="sim_removed_message_confirm">The mobile network is unavailable. Insert a valid SIM card and restart.</string>
+    <string name="sim_removed_message_SPR_CDMA">The mobile 4G network will be unavailable until you restart with a valid SIM card inserted.</string>
+    <string name="KT_STR_USIM_ERR_RECHECK">Install USIM card again. Emergency call only.</string>
+    <string name="SKT_STR_USIM_ERR_RECHECK">Install USIM card again. Emergency call only.</string>
+    <string name="sp_no_simcard_popup_text">"Your phone needs a SIM card to work. You may not have inserted your SIM card yet or it may be inserted incorrectly.
+
+Turn off your phone and make sure your SIM card is inserted as shown below.  Then turn your phone back on."</string>
+    <string name="enablePin">Unsuccessful. Enable SIM/RUIM LOCK.</string>
+    <string name="pinpuk_attempts">"Attempts remaining: "</string>
+    <string name="limited_service">Emergency calls only</string>
+    <string name="sp_charge_only_title_NORMAL">Charging is started</string>
+    <string name="usb_pc_charge_notification_title">Connected to charge phone</string>
+    <string name="usb_pc_charge_notification_id_title">Charge phone</string>
+    <string name="usb_mtp_connection_allow_popup_message">Allow this computer to access your phone data?</string>
+    <string name="cm_connection_popup_message">The LG CAM Plus keys are unavailable while the USB cable is connected.</string>
+    <string name="hm_connection_popup_title">USB connection</string>
+    <string name="hm_connection_popup_message">Only charging is available when earphones are connected to LG Hi-Fi Plus. To share files with the computer, unplug the earphones.</string>
+    <string name="sp_half_failed_attempt_NORMAL">Please type the sentence including the spaces in the box below.</string>
+    <string name="sp_dialer_211_NORMAL">Community information</string>
+    <string name="sp_not_available_during_a_call_NORMAL">Cannot use during a call.</string>
+    <string name="sp_movial_wifi_calling_status_error_code_NORMAL">Error code</string>
+    <string name="minute">Min</string>
+    <string name="second">Sec</string>
+    <string name="sp_screenshot_failed_enough_space_internal_storage_NORMAL">Not enough space on internal storage. To free up space, delete some files.</string>
+    <string name="STR_res_NEWCOUNTRYPHONE_NORMAL">New country</string>
+    <string name="sp_emergency_pop_title_NORMAL">Leave Setup Wizard</string>
+    <string name="sp_dlg_insertsim_NORMAL">"Your phone needs a SIM card to work. You may not have inserted your SIM card yet or it may be inserted incorrectly.
+
+Turn off your phone and make sure your SIM card is inserted as shown below.  Then turn your phone back on."</string>
+    <string name="sp_dlg_detectsim_NORMAL">SIM card inserted. Switch to Global mode.</string>
+    <string name="sp_dlg_global_NORMAL">The network is not available. You can try global mode to see if alternative networks are available. Do you want to set network to global mode?</string>
+    <string name="sp_dlg_global_check_select">"Don't show again until rebooting or setting back to global mode from other mode."</string>
+    <string name="settings_airplane_mode_popup">"Airplane mode is on.
+Unable to make or receive calls with airplane mode on."</string>
+    <string name="qslide_cannot_return_to_app_incomingcall">Not available during incoming call</string>
+    <string name="cliptray">Clip Tray</string>
+    <string name="sp_audio_vol_up_warning_toast_NORMAL">High volume for long periods may damage your hearing.</string>
+    <string name="sp_audio_safe_media_volume_warning">High volume for long periods may damage your hearing. Raise volume?</string>
+    <string name="sp_audio_safe_media_volume_warning_short">"Listening at high volume for long periods may be harmful to your hearing.
+Your media volume has been adjusted below the recommended level."</string>
+    <string name="sp_audio_vol_tty_mode_warning_toast_NORMAL">Cannot adjust the volume during TTY mode</string>
+    <string name="file_size_limit">File size limit exceeded (%d MB).</string>
+    <string name="tab_to_remove_usb_storage">Tap to safely remove USB storage</string>
+    <string name="unmount_usb_storage_before_removing_it">Unmount USB storage to safely remove it</string>
+    <string name="progress_erasing_PrDdefault">Erasing SD card...</string>
+    <string name="progress_erasing_PrDnosdcard">Erasing USB storage...</string>
+    <string name="progress_unmounting_PrDdefault">Unmounting SD card...</string>
+    <string name="progress_unmounting_PrDnosdcard">Unmounting USB storage...</string>
+    <string name="media_checking_PrDnosdcard">USB storage is currently being checked.</string>
+    <string name="media_shared_PrDnosdcard">USB storage is currently in use by a computer.</string>
+    <string name="sp_unknown_destination_address_SHORT">Unknown destination address</string>
+    <string name="call_network_scan">"Searching for frequency band.
+Emergency call only."</string>
+    <string name="sp_emergency_pop_body2_NORMAL">To finish setting up later, go to Apps > Verizon > Setup Wizard.</string>
+    <string name="dun_noti_title">Dial-up Networking</string>
+    <string name="dum_popup_disconnect">Disconnect Dial-Up Networking.</string>
+    <string name="wcdma_connection_for_kt">Now connecting to WCDMA data network</string>
+    <string name="gprs_connection_for_kt">Now connecting to GPRS data network</string>
+    <string name="lte_connection_for_kt">Now connecting to LTE data network</string>
+    <string name="paypopup_for_kt">Connecting to 3G data network. You may incur additional charges if you are not using a flat rate pricing plan. Do you want to make the connection?</string>
+    <string name="paypopup_for_kt_roaming">Roaming Data Service?</string>
+    <string name="paypopup_cancelled_for_kt">"WCDMA data connection disallowed. You can change your settings to 'WCDMA Always On' for WCDMA data connection in the Data Network Settings."</string>
+    <string name="allow_popup_kt">Connected to mobile data</string>
+    <string name="roaming_alert_context_on">Significant charges may apply for global roaming.</string>
+    <string name="roaming_alert_context_off">Mobile network charges may apply in roaming. Allow the connection in roam?</string>
+    <string name="ps_alert_context">Always ask for permission to use mobile Mobile network charges may apply. Continue?</string>
+    <string name="always_req_notice">Notice!</string>
+    <string name="fro_ena_to_ask_popup">Always ask for permission to use mobile network. Mobile network charges may apply. Continue?</string>
+    <string name="always_allow_popup">Connecting to data network... Data charges may apply depending on your plan.</string>
+    <string name="roaming_notallow_bt">Settings</string>
+    <string name="always_ask_on_cancel">Connection unavailable. Configure Mobile Network or Wi-Fi settings to download data.</string>
+    <string name="always_not_allow_popup">"Connection unavailable.\\r
+Configure Mobile Network or\\r
+Wi-Fi settings to download data"</string>
+    <string name="always_not_allow_popup_3gonly">"Connection unavailable.\\r
+Configure Mobile Network\\r
+settings to download data"</string>
+    <string name="roaming_not_allow_popup">Connection unavailable in roam</string>
+    <string name="roaming_not_allow_popup_in_menu">"Connection unavailable in roam. Configure 'allow data roaming' in Data roaming"</string>
+    <string name="roamBlock_noti_text">"Connection unavailable in roam. Configure 'allow data roaming' in Data roaming"</string>
+    <string name="roamBlock_noti_title">Data roaming</string>
+    <string name="roamBlock_noti_ticker">Connection unavailable in roam</string>
+    <string name="block_inmms">Data connection is blocked in MMS</string>
+    <string name="dataBlock_noti_text">Network unavailable</string>
+    <string name="dataBlock_noti_ticker">Mobile network unavailable</string>
+    <string name="data_setup_toast">Now connecting to 3G/4G data network</string>
+    <string name="data_disable_wifi_to_3g_transition_toast">Wi-Fi has been disconnected. Check the Wi-Fi settings or use mobile data.</string>
+    <string name="data_allowed_toast">Mobile data is on. Data charges may apply.</string>
+    <string name="data_blocked_toast">Mobile data is off. Turn on mobile data to use.</string>
+    <string name="dataBlock_noti_error">Mobile network error</string>
+    <string name="data_unpaid_title">Restrict mobile data</string>
+    <string name="data_usage_limit_body_kr">%d limit reached. Tap to use mobile data anyway</string>
+    <string name="block_user_switch_toast_string">Switching user... Try again later.</string>
+    <string name="block_user_switch_delay_toast_string">Switching user… Try again in %d sec.</string>
+    <string name="block_user_switch_delay_popup_string">Switching user... Please wait.</string>
+    <string name="quicksettings_sound_toast_dnd_is_on">For the sound profile, turn off Do not disturb.</string>
+    <string name="warning_message_cancel_manual_timezone_setting_popup">"Are you sure?
+The time in the phone could be incorrect if you don't select time zone manually."</string>
+    <string name="pco_noti_title">Get Verizon service</string>
+    <string name="pco_noti_text_big_owner">"You don't have a Verizon Wireless plan or you've used all of your plan allowance. Tap to get service."</string>
+    <string name="pco_noti_text_small_owner">Tap to get Verizon service.</string>
+    <string name="pco_noti_text_big_secondary">"You don’t have a Verizon Wireless data plan or you've used all of your data. Contact the phone owner to add mobile data."</string>
+    <string name="pco_noti_text_small_secondary">Contact the phone owner to add mobile data.</string>
+    <string name="pco_noti_text_pco_two">Due to time of day or a data limit.</string>
+    <string name="pco_noti_ticker">Tap to get Verizon service.</string>
+    <string name="pco_postpaid_noti_title">Activation Incomplete</string>
+    <string name="pco_postpaid_noti_text_big_owner">Please contact Customer Service at (800) 922- 0204 for assistance.</string>
+    <string name="pco_postpaid_noti_text_small_owner">Please contact Customer Service at (800) 922- 0204 for assistance.</string>
+    <string name="pco_postpaid_noti_ticker">Please contact Customer Service at (800) 922- 0204 for assistance.</string>
+    <string name="sp_restart_in_safe_mode_title">Restart in safe mode</string>
+    <string name="sp_restart_in_safe_mode_details">"Do you want to restart your phone in Safe Mode?  While in Safe Mode, apps that did not come with your phone will be temporarily disabled to help you troubleshoot your phone.  When you restart your phone next time, Safe Mode will be turned off and your apps will be available again."</string>
+    <string name="sp_restart_in_safe_mode_dlg_positive_btn">"Turn On
+Safe Mode"</string>
+    <string name="lockscreen_sim_error_message_short">Invalid card</string>
+    <string name="permlab_IMS">Use IMS feature</string>
+    <string name="reject_cause_IMSI_unknown_in_HLR_PrDdefault">SIM card not provisioned. Turn off and restart your phone. If network is unavailable, contact Customer Service.</string>
+    <string name="reject_cause_Illegal_ME_PrDdefault">Phone not authorized. Turn off and restart your phone. If network is unavailable, contact Customer Service.</string>
+    <string name="reject_cause_GPRS_services_and_non_GPRS_services_not_allowed_PrDdefault">Operator network unavailable. Turn off and restart your phone. If the problem continues, contact Customer Service.</string>
+    <string name="reject_cause_Illegal_MS_PrDdefault">SIM card not provisioned. Turn off and restart your phone. If network is unavailable, contact Customer Service.</string>
+    <string name="forced_off_before_activation_description">Phone will turn off in 30 seconds to prevent battery drainage that may happen before using phone. Tap screen to keep it turned on.</string>
+    <string name="sp_quick_button_guide_NORMAL">Tip</string>
+    <string name="sp_side_quick_button_guide_popup_MLINE">"You can press this key to open the app set as shortcut.
+You can also press and hold this key to set a different app as shortcut."</string>
+    <string name="insert_ctc_sim">Your uim card does not match the terminal, please change the China Telecom 4G card</string>
+    <string name="sp_spn_fareastone_summary">Far EasTone</string>
+    <string name="lockscreen_china_telecom">China Telecom</string>
+    <string name="lockscreen_unknown_network">Unknown network</string>
+    <string name="sp_captive_portal_body_MLINE">The network you’re connecting to requires you to sign in through your browser first.</string>
+    <string name="sp_captive_portal_sign_button_NORMAL">Don’t Sign In</string>
+    <string name="activation_account_information">"Call (877) 807-4646 from another phone. You'll need your account information."</string>
+    <string name="sim_notification_activation_successful_text">Your phone number is %s</string>
+    <string name="sim_notification_activation_failed_text">Your phone will try again when you restart</string>
+    <string name="sim_notification_provisioning_title">Activating your phone</string>
+    <string name="sim_notification_nosim_text">Check SIM. Restart phone if SIM is inserted correctly.</string>
+    <string name="sim_notification_usercancel_when_simadded_text">Restart your phone to use the mobile network.</string>
+    <string name="sim_removed_progress_text">SIM card removed. For your security, your phone will show the Lock screen.</string>
+    <string name="sim_removed_progress_text_for_no_detect_pin">"SIM card removed. For your security, your phone will show the Lock screen.
+Insert SIM card and restart your phone."</string>
+    <string name="security_noti_msg" formatted="false">\"%s\" requests permission to access %d.</string>
+    <string name="sim_change_please_wait">Please wait...</string>
+    <string name="gps_notification_searching_text_vzw">Finding location...</string>
+    <string name="sp_do_not_show_again_NORMAL">"Don't show this again"</string>
+    <string name="performBootDexOpt_fail_title_vzw">Application upgrade pending</string>
+    <string name="performBootDexOpt_fail_details_vzw">Press to free up memory by deleting unused files or apps and restart the device</string>
+    <string name="use_once">Just once</string>
+    <string name="use_always">Always</string>
+    <string name="usb_device_unavailable_due_to_low_battery">Battery low. USB device unavailable</string>
+    <string name="dialer_no_speed_dial_assigned">No speed dials assigned</string>
+    <string name="sp_calling_pass_dualsim_activity_NORMAL">Cannot use during a call.</string>
+    <string name="lock_to_app_toast_sw_back_menu">To unpin this screen, touch and hold the Back and Menu buttons.</string>
+    <string name="lock_to_app_toast_hw_pwr_recent">To unpin this screen, touch and hold the Power and Overview buttons.</string>
+    <string name="lock_to_app_toast_hw_pwr_menu">To unpin this screen, touch and hold the Power and Menu buttons.</string>
+    <string name="lock_to_app_toast_accessible_menu">To unpin this screen, touch and hold the Menu buttons.</string>
+    <string name="lock_to_app_toast_hw_back_recent">To unpin this screen, press and hold the Back and Overview keys.</string>
+    <string name="global_actions_voice_care_6">Tap %s to stop.</string>
+    <string name="sp_restart_in_safe_mode_details_5_0">To turn on Safe Mode, the phone will restart and certain apps will be unavailable to help troubleshoot the phone. When you restart the phone again, Safe Mode will be turned off and all apps will be available.</string>
+    <string name="sp_phone_power_off_confirm_NORMAL_5_0">Power off the phone?</string>
+    <string name="sp_phone_restart_confirm_NORMAL_5_0">Restart the phone?</string>
+    <string name="performBootDexOpt_guide_details">This may take longer depending on apps. Please do not remove the battery until complete.</string>
+    <string name="performBootDexOpt_guide_details_embeddedBattery">This may take longer depending on apps. Please do not turn off the phone until complete.</string>
+    <string name="capital_off">Off</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="instructions_to_go_permission_settings">Go to Settings > Apps > %1$s to allow.</string>
+    <string name="instructions_to_go_permission_settings_permissions">Go to Settings > Apps > %1$s > Permissions to allow.</string>
+    <string name="widget_no_permission_message_go_to_settings">No permissions. Tap to allow in Settings.</string>
+    <string name="disclosure_go_to_settings_to_deny">You can change the permissions later in Settings > Apps > %1$s > Permissions.</string>
+    <string name="disclosure_understand_menu">Accept</string>
+    <string name="disclosure_settings_menu">Settings</string>
+    <string name="pco_no_internet_popup_without_pending_order_message">Please contact Customer Service at (800) 922-0204 for assistance.</string>
+    <string name="lg_share_inform_after_start">Send images, music, videos, etc. to nearby devices. Have nearby devices turn on Ready to receive in the Notification Panel.</string>
+    <string name="lg_share_no_search_more">"No devices were found.
+Tap See more to extend your search."</string>
+    <string name="privacy_screen_on">Privacy screen is on.</string>
+    <string name="privacy_screen_off">Privacy screen is off.</string>
+    <string name="overlay_magnifier_talkback_feedback_window">Zoom window</string>
+    <string name="overlay_magnifier_talkback_feedback_filter_button">Filter</string>
+    <string name="overlay_magnifier_talkback_guide_popup_title">Window zoom</string>
+    <string name="overlay_magnifier_talkback_guide_popup_do_not_show_again">Do not show again.</string>
+    <string name="sp_wifi_hotspot_maxClientReached_message_NORMAL_att">Maximum Mobile Hotspot connections reached. Please disconnect one device to enable the new device connection.</string>
+    <string name="wifisharing_notification_message">Sharing connected Wi-Fi…</string>
+    <string name="sp_wifi_notify_disconnected_NORMAL">Wi-Fi has been disconnected.</string>
+    <string name="sp_wifi_notify_open_AP_connect_NORMAL">This network is not secure. Be careful in use.</string>
+    <string name="sp_wifi_notify_prohibit_connect_ap_NORMAL">During a video call you can not use Wi-Fi connection.</string>
+    <string name="sp_wifi_ip_settings_invalid_password_NORMAL">Check encryption key</string>
+    <string name="sp_wifi_lge_eap_success">Wi-Fi Authentication success.</string>
+    <string name="sp_wifi_lge_eap_failure">Wi-Fi Authentication failed.</string>
+    <string name="sp_wifi_lge_eap_auth_timeout">Network unavailable</string>
+    <string name="sp_wifi_lge_eap_failure_with_error_code">Check your ID and password.</string>
+    <string name="sp_wifi_lge_eap_noti_other_available_sims">Other SIM cards can be used. Change the slot to use.</string>
+    <string name="sp_miracast_guide_intro_desc_NORMAL">With Miracast, you can wirelessly mirror your phone screen and sound onto a Miracast dongle or TV.</string>
+    <string name="sp_miracast_guide_intro_desc_att_NORMAL">Wirelessly mirror your phone screen and sound onto a Miracast dongle or TV.</string>
+    <string name="sp_miracast_guide_intro_desc_chrome_NORMAL">With Miracast, you can wirelessly mirror your phone screen and sound onto the TV or a Miracast dongle or Chromecast dongle.</string>
+    <string name="sp_do_not_show_this_again_NORMAL">"Don't show this again"</string>
+    <string name="sp_screensharing_disconnected_during_mirroring">%s disconnected. Screen sharing turned off.</string>
+    <string name="wifi_p2p_connection_failed_channel_limitation">Cannot connect to %1$s. Disconnect from%2$s and try again.</string>
+    <string name="wifi_p2p_groupcreate_failed_channel_limitation">Cannot create Group. Try again after disconnecting to %1$s.</string>
+    <string name="sp_wifi_low_rssi_and_disconnect">%1$s has been disconnected due to a weak Wi-Fi signal.</string>
+    <string name="sp_vzw_network_avail_NORMAL">Verizon Wi-Fi available</string>
+    <string name="sp_touchto_config_NORMAL">Touch to configure</string>
+    <string name="app_name">Wi-Fi aggregation</string>
+    <string name="sp_tethered_usb_notification_title_NORMAL">USB tethering active</string>
+    <string name="sp_ongoing_noti_no_ap_NORMAL">No Wi-Fi networks detected</string>
+    <string name="sp_ongoing_noti_ap_NORMAL">Wi-Fi networks available</string>
+    <string name="sp_ongoing_noti_ap_connected_NORMAL">Connected to:</string>
+    <string name="sp_ongoing_noti_summary_NORMAL">Tap to set up</string>
+    <string name="sp_wifi_connected_notification_message">The %s Wi-Fi network has been connected.</string>
+    <string name="wifi_auto_select_confirm_title">Connect to Wi-Fi</string>
+    <string name="wifi_auto_select_confirm_msg">%s will be connected. Some data services may be unavailable. Connect?</string>
+    <string name="wifi_auto_select_checkbox">"Don't ask on connection"</string>
+    <string name="wifi_auto_select_confirm_ok">Ok</string>
+    <string name="wifi_auto_select_confirm_cancel">cancel</string>
+    <string name="wifi_tether_off_notification_title">Mobile Hotspot off by inactivity.</string>
+    <string name="wifi_tether_off_msg_vzw">Mobile Hotspot has been disconnected.</string>
+    <string name="sp_wifi_internet_unavailable_alert_for_uncheck_NORMAL">The Internet is unavailable with \"%1$s\".</string>
+    <string name="sp_wifi_notify_deactivate_airplane_mode_NORMAL">Turn Airplane mode off to connect to Wi-Fi.</string>
+    <string name="hotspot_off_notification_by_SIM_changed">The SIM card has been removed. Wi-Fi hotspot will turn off.</string>
+    <string name="hotspot_off_notification_by_SIM_removed_PrDdefault">The SIM card has been removed. Wi-Fi hotspot will turn off.</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">SIM लॉक होण्यापूर्वी तुमच्याकडे %d प्रयत्न शिल्लक आहे.</item>
+        <item quantity="one">SIM लॉक होण्यापूर्वी तुमच्याकडे %d प्रयत्न शिल्लक आहे.</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">अंतिम %d दिवस</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d सेकंद</item>
+        <item quantity="one">1 सेकंद</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d मिनिटे</item>
+        <item quantity="one">1 मिनिट</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d तास</item>
+        <item quantity="one">1 तास</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi नेटवर्क उपलब्ध</item>
+        <item quantity="one">Wi-Fi नेटवर्क उपलब्ध</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">उघड Wi-Fi नेटवर्क उपलब्ध</item>
+        <item quantity="one">उपलब्ध Wi-Fi नेटवर्क उघडा</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d %2$d च्या</item>
+        <item quantity="one">1 जोड</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">%d सेकंदांमध्ये पुन्हा प्रयत्न करा.</item>
+        <item quantity="one">1 सेकंदांमध्ये पुन्हा प्रयत्न करा.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d मिनिटांसाठी</item>
+        <item quantity="one">1 मिनिटासाठी</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d तासांसाठी</item>
+        <item quantity="one">1 तासासाठी</item>
+    </plurals>
+</resources>

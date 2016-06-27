@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/wifi_screen_intro_portrait" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/wifi_screen_intro_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:src="@drawable/wifi_screen_img_help_popup" android:layout_marginStart="9.329987dip" android:layout_marginEnd="9.329987dip" />
+            <TextView android:textSize="15.669983sp" android:id="@id/wifi_screen_intro_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sp_miracast_guide_intro_desc_NORMAL" android:layout_marginStart="9.329987dip" android:layout_marginEnd="9.329987dip" />
+            <TextView android:textSize="15.669983sp" android:id="@id/miracast_battery_tip_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.669983dip" android:layout_marginBottom="13.0dip" android:text="@string/sp_miracast_guide_tips_batt_desc_NORMAL" android:layout_marginStart="9.329987dip" android:layout_marginEnd="9.329987dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/wifi_screen_intro_landscape" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:src="@drawable/wifi_screen_img_help_popup_land" android:layout_marginStart="9.329987dip" android:layout_marginEnd="9.329987dip" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.669983sp" android:id="@id/wifi_screen_intro_text_land" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/sp_miracast_guide_intro_desc_NORMAL" android:layout_marginEnd="9.329987dip" />
+                <TextView android:textSize="15.669983sp" android:id="@id/miracast_battery_tip_text_land" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.669983dip" android:layout_marginBottom="13.0dip" android:text="@string/sp_miracast_guide_tips_batt_desc_NORMAL" android:layout_marginEnd="9.329987dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

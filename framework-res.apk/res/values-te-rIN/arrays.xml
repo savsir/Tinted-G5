@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>హోమ్</item>
+        <item>పని</item>
+        <item>ఇతర</item>
+        <item>కస్టమ్</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>పని</item>
+        <item>ఇతర</item>
+        <item>కస్టమ్</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>హోమ్</item>
+        <item>మొబైల్</item>
+        <item>పని</item>
+        <item>కార్యాలయ ఫ్యాక్స్</item>
+        <item>హోం ఫ్యాక్స్</item>
+        <item>పేజర్</item>
+        <item>ఇతర</item>
+        <item>కస్టమ్</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>హోమ్</item>
+        <item>పని</item>
+        <item>ఇతర</item>
+        <item>కస్టమ్</item>
+    </string-array>
+    <array name="wfcOperatorErrorAlertMessages" />
+    <array name="wfcOperatorErrorNotificationMessages" />
+    <string-array name="fingerprint_acquired_vendor">
+        <item>"మీ వేలిని ప్రతిసారి 
+వేరేగా పెట్టండి."</item>
+        <item>"వేలిముద్ర ఇప్పటికే చేర్చబడినది. 
+వేరొక వేలిని పెట్టండి."</item>
+    </string-array>
+    <array name="fingerprint_error_vendor" />
+    <string-array name="imAddressTypes">
+        <item>హోమ్</item>
+        <item>పని</item>
+        <item>ఇతర</item>
+        <item>కస్టమ్</item>
+    </string-array>
+</resources>

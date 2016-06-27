@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dialog_border_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alert_dialog_title_height">
+            <TextView android:textAppearance="@style/LGTextAppearance.Dialog.Title" android:ellipsize="end" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="12.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="top" android:id="@android:id/icon" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="1.0" android:layout_marginEnd="12.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ScrollView android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <FrameLayout android:id="@android:id/custom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="@style/LGTextAppearance.Dialog.Message" android:id="@android:id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                </ScrollView>
+                <CheckBox android:textAppearance="@style/LGTextAppearance.Dialog.CheckBox" android:ellipsize="@integer/ellipsize_checkbox_on_dialog" android:id="@android:id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_init_material_checkbox_margin_start" android:layout_marginTop="@dimen/dialog_init_material_checkbox_margin_top" android:layout_marginBottom="@dimen/dialog_init_material_checkbox_margin_bottom" android:text="@string/sp_do_not_show_again_NORMAL" android:maxLines="@integer/max_lines_checkbox_on_dialog" android:singleLine="@bool/single_line_checkbox_on_dialog" android:drawableLeft="@android:color/transparent" android:drawablePadding="@dimen/dialog_initial_checkbox_drawable_padding" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alert_dialog_button_bar_height" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
+        <Space android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

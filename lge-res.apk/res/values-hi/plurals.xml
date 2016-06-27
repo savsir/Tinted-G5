@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d मिनट के लिए</item>
+        <item quantity="one">एक मिनट के लिए</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d घंटे के लिए</item>
+        <item quantity="one">एक घंटे के लिए</item>
+    </plurals>
+    <plurals name="sp_wifi_open_secured_available_detailed_NORMAL">
+        <item quantity="other">ओपन अथवा सुरक्षित Wi-Fi नेटवर्क उपलब्ध</item>
+        <item quantity="one">ओपन अथवा सुरक्षित Wi-Fi नेटवर्क उपलब्ध</item>
+    </plurals>
+</resources>
